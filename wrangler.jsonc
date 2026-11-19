@@ -1,0 +1,6 @@
+{
+  // Static export served as Workers static assets; having this file stops wrangler's Next.js/OpenNext autoconfig
+  "name": "cv",
+  "compatibility_date": "2026-11-18",
+  "assets": { "directory": "./out", "not_found_handling": "404-page" }
+}
